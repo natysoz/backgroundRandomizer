@@ -1,0 +1,248 @@
+
+body, html
+{
+    cursor:url('https://res.cloudinary.com/dvvx6eoye/raw/upload/v1568825126/sand_cxpdtt.cur'),pointer !important;
+}
+
+
+
+* {
+    font-family: "Roboto Light", sans-serif;
+    color: whitesmoke;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h6{
+    font-family: "Roboto Light", sans-serif;
+    font-size:14px;
+}
+button {
+    height: 35px;
+    color: #b9b9b9;
+    background-color: #25232c;
+    border: none;
+}
+button:hover {
+    box-shadow: inset -1px 2px 3px 1px rgba(0, 0, 0, 0.62);
+    cursor:url('https://res.cloudinary.com/dvvx6eoye/raw/upload/v1568825126/sand_cxpdtt.cur'),pointer !important;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.clr {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.clr:hover {
+    transform: scale(1.05);
+}
+
+.red {
+    background-color: #ff3535;
+}
+
+.blue {
+    background-color: #34a1f5;
+}
+
+.green {
+    background-color: #23bf21;
+}
+
+.black {
+    background-color: #080808;
+}
+
+.orange {
+    background-color: #ff980b;
+}
+
+.pink {
+    background-color: #b73694;
+}
+.icon{
+    width: 25px;
+}
+
+.section-container > * {
+    height: 70px;
+}
+
+.color_picker_hidden {
+    display: none;
+}
+
+.color_picker_show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color_picker_show > * {
+    cursor:url('https://res.cloudinary.com/dvvx6eoye/raw/upload/v1568825126/sand_cxpdtt.cur'),pointer !important;
+}
+
+
+.flex-row {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flex-row__mode{
+    width: 135px;
+}
+
+.flex-row[data-title]:hover:after{
+    content: attr(data-title);
+    padding: 4px 8px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    white-space: nowrap;
+    border-radius: 5px;
+    background:#000;
+}
+
+.flex-row p{
+    color:white;
+    font-size: 18px;
+}
+
+.flex-color {
+    padding-top: 5px;
+    width: 320px;
+
+}
+
+.flex-color > * {
+    padding: 5px;
+}
+
+.selected {
+    border-radius: 0;
+    border:5px solid white;
+    animation: rotateAll 0.5s ease-out;
+}
+
+
+@keyframes rotateAll {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(180deg);
+    }
+}
+
+section {
+    padding: 10px;
+    background-color: #363340;
+    width: 360px;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: flex 0.15s ease-in;
+}
+
+section > * {
+    flex: 1
+}
+
+header {
+    height: 65px !important;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header >*{
+    padding: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor:url('https://res.cloudinary.com/dvvx6eoye/raw/upload/v1568825126/sand_cxpdtt.cur'),pointer !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

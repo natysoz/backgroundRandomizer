@@ -1,0 +1,95 @@
+._Dark_Mode{
+    background-color: #282828 !important;
+    outline : 1px dotted #171717 !important;
+    color: #e7e7e7 !important;
+}
+
+._Dark_Mode img{
+    opacity: .85;
+}
+
+._Dark_Mode a{
+    color: #d1aa02 !important;
+}
+
+._Dark_Mode a>*{
+    color: #d1aa02 !important;
+}
+
+._Color_Mode{
+    font-weight: 900;
+}
+
+._Ghost_Mode{
+    background-color: #19262e !important;
+    color: #19262e !important;
+    box-shadow: unset !important;
+    outline : 1px solid whitesmoke !important;
+}
+
+._Ghost_Mode img{
+    opacity: 0.12;
+}
+
+._Inspect_Mode:hover{
+    outline : 2px dotted #f51c18 !important;
+    cursor: url('https://res.cloudinary.com/dvvx6eoye/raw/upload/v1568825126/sand_cxpdtt.cur'), pointer;
+}
+
+
+._Custom_Mode_blue_R1{background-color: #538fbb !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_blue_R2{background-color: #48749a !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_blue_R3{background-color: #82abcd !important; color: white !important; outline : 1px dotted black !important;}
+
+._Custom_Mode_green_R1{background-color: rgba(105, 196, 98, 0.76) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_green_R2{background-color: rgba(109, 186, 104, 0.65) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_green_R3{background-color: rgba(52, 104, 45, 0.75) !important; color: white !important; outline : 1px dotted black !important;}
+
+._Custom_Mode_red_R1{background-color: rgba(186, 84, 94, 0.81) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_red_R2{background-color: rgba(204, 82, 88, 0.89) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_red_R3{background-color: rgba(128, 59, 62, 0.8) !important; color: white !important; outline : 1px dotted black !important;}
+
+._Custom_Mode_black_R1{background-color: rgb(31, 31, 31) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_black_R2{background-color: rgba(52, 52, 52, 0.79) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_black_R3{background-color: rgba(106, 106, 106, 0.44) !important; color: white !important; outline : 1px dotted black !important;}
+
+._Custom_Mode_pink_R1{background-color: rgba(157, 83, 133, 0.79) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_pink_R2{background-color: rgba(154, 53, 130, 0.77) !important; color: white !important; outline : 1px dotted black !important;}
+._Custom_Mode_pink_R3{background-color: rgba(205, 78, 148, 0.81) !important; color: white !important; outline : 1px dotted black !important;}
+
+
+._Random_Mode_R1{background-color: #60bd5e !important; color:whitesmoke !important;}
+._Random_Mode_R2{background-color: #8bbd55 !important; color:whitesmoke !important;}
+._Random_Mode_R3{background-color: #bdbd55 !important; color:whitesmoke !important;}
+._Random_Mode_R4{background-color: #bd9462 !important; color:whitesmoke !important;}
+._Random_Mode_R5{background-color: #bd604d !important; color:whitesmoke !important;}
+._Random_Mode_R6{background-color: #bd4f67 !important; color:whitesmoke !important;}
+._Random_Mode_R7{background-color: #bd5eba !important; color:whitesmoke !important;}
+._Random_Mode_R8{background-color: #8768bd !important; color:whitesmoke !important;}
+._Random_Mode_R9{background-color: #7175bd !important; color:whitesmoke !important;}
+._Random_Mode_R10{background-color: #48b2bf !important; color:whitesmoke !important;}
+._Random_Mode_R11{background-color: #cca562 !important; color:whitesmoke !important;}
+._Random_Mode_R12{background-color: #5ebd89 !important; color:whitesmoke !important;}
+._Random_Mode_R13{background-color: #6d7dbd !important; color:whitesmoke !important;}
+
+
+._Density_Mode_R1{background-color: #fef6f6 !important; color:whitesmoke !important;}
+._Density_Mode_R2{background-color: #fce9e9 !important; color:whitesmoke !important;}
+._Density_Mode_R3{background-color: #fadcdc !important; color:whitesmoke !important;}
+._Density_Mode_R4{background-color: #f8cece !important; color:whitesmoke !important;}
+._Density_Mode_R5{background-color: #f5c1c1 !important; color:whitesmoke !important;}
+._Density_Mode_R6{background-color: #f3b4b4 !important; color:whitesmoke !important;}
+._Density_Mode_R7{background-color: #f1a7a7 !important; color:whitesmoke !important;}
+._Density_Mode_R8{background-color: #ef9999 !important; color:whitesmoke !important;}
+._Density_Mode_R9{background-color: #ed8c8c !important; color:whitesmoke !important;}
+._Density_Mode_R10{background-color: #eb7f7f !important; color:whitesmoke !important;}
+._Density_Mode_R11{background-color: #e97272 !important; color:whitesmoke !important;}
+._Density_Mode_R12{background-color: #e76464 !important; color:whitesmoke !important;}
+._Density_Mode_R13{background-color: #e55757 !important; color:whitesmoke !important;}
+._Density_Mode_R14{background-color: #e34a4a !important; color:whitesmoke !important;}
+._Density_Mode_R15{background-color: #e13d3d !important; color:whitesmoke !important;}
+._Density_Mode_R16{background-color: #df2f2f !important; color:whitesmoke !important;}
+._Density_Mode_R17{background-color: #dd2222 !important; color:whitesmoke !important;}
+._Density_Mode_R18{background-color: #a81a1a !important; color:whitesmoke !important;}
+._Density_Mode_R19{background-color: #9b1818 !important; color:whitesmoke !important;}
+._Density_Mode_R20{background-color: #8d1616 !important; color:whitesmoke !important;}
