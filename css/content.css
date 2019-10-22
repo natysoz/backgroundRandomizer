@@ -1,5 +1,5 @@
 ._Dark_Mode{
-    background-color: #282828 !important;
+    background-color: #333333 !important;
     outline : 1px dotted #171717 !important;
     color: #e7e7e7 !important;
 }
@@ -13,11 +13,11 @@
 }
 
 ._Dark_Mode a>*{
-    color: #d1aa02 !important;
+    color: #e5cd00 !important;
 }
 
 ._Color_Mode{
-    font-weight: 900;
+    font-weight: 500;
 }
 
 ._Ghost_Mode{

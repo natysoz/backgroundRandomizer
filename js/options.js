@@ -1,5 +1,6 @@
 window.addEventListener("load", init);
 
+
 let preferences = {
   color: null,
   random: false,
